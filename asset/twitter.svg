@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M60 0L60 0L60 60L0 60L0 0L60 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Group-19">
+    <g id="twitter-x">
+      <path d="M60 0L60 0L60 60L0 60L0 0L60 0Z" id="twitter-x" fill="none" stroke="none" />
+      <path d="M47.25 2.8125L56.4525 2.8125L36.3525 25.845L60 57.1875L41.4863 57.1875L26.985 38.175L10.3912 57.1875L1.185 57.1875L22.6838 32.55L0 2.8125L18.9863 2.8125L32.0925 20.1863L47.2538 2.8125L47.25 2.8125ZM44.0249 51.6672L49.1249 51.6672L16.2112 8.04346L10.7437 8.04346L44.0249 51.6672Z" id="Shape" fill="#FFEDED" fill-rule="evenodd" stroke="none" clip-path="url(#clip_1)" />
+      <path d="M47.25 2.8125L56.4525 2.8125L36.3525 25.845L60 57.1875L41.4863 57.1875L26.985 38.175L10.3912 57.1875L1.185 57.1875L22.6838 32.55L0 2.8125L18.9863 2.8125L32.0925 20.1863L47.2538 2.8125L47.25 2.8125ZM44.0249 51.6672L49.1249 51.6672L16.2112 8.04346L10.7437 8.04346L44.0249 51.6672Z" id="Shape" fill="#FFEDED" fill-rule="evenodd" stroke="none" clip-path="url(#clip_1)" />
+    </g>
+  </g>
+</svg>

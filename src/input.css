@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply font-primary bg-primary
+}
+
+@layer base {
+	button {
+		@apply bg-secondary-text text-primary px-10 py-2 rounded-md font-semibold
+	}
+	section:first-child {
+		@apply min-h-screen
+	}
+	section {
+		@apply min-h-[80vh] w-[80%] mx-auto
+	}
+
+	label {
+		@apply inline-block w-full
+	}
+	
+}
+
+@layer components {
+	.text {
+		@apply font-secondary text-sm  font-light text-center md:w-[32rem] mx-auto mt-8 mb-10
+	}
+
+	.badge-right {
+		@apply bg-secondary-text pr-4 text-primary
+	}
+
+	.card {
+		@apply flex gap-8 flex-col md:flex-row
+	}
+	.card-img {
+		@apply w-[35rem] object-cover
+	}
+
+	.card-detail {
+		@apply flex flex-col items-start gap-6 md:m-8	
+	}
+	.card-title {
+		@apply text-secondary-text text-4xl font-primary
+	}	
+
+	.card-description {
+		@apply font-secondary text-xs font-light 
+	}
+	.badge-left {
+		@apply bg-secondary-text pl-4 text-primary
+	}
+	
+}

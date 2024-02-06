@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Arisandi kader frontend developer</title>
+		<!-- css -->
+		<link rel="stylesheet" href="./css/style.css">
+		<!-- font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Single+Day&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header class=" fixed w-full flex flex-col md:flex-row items-center content-center justify-between p-6 bg-primary-light text-secondary-text border-b-[1px] border-solid border-secondary-text ">
+			<h1 class="text-2xl">Arisandi Kader</h1>
+			<nav class="text-lg flex gap-4 list-none" >
+				<li><a href="#home">Home </a></li>
+				<li><a href="#myskill">My Skill </a></li>
+				<li><a href="#portfolio">Portfolio </a></li>
+				<li><a href="#contact">Contact</a></li>
+			</nav>
+		</header>
+		<main>
+			<section id="home" class="flex flex-col items-center py-[12rem]  ">
+				<h1 class=" text-4xl md:text-6xl ">Hi I'm <span class="text-secondary-text">Arisandi Kader</span></h1>
+				<h1 class="text-4xl md:text-6xl  mt-2">A <span class="text-secondary-text">FrontEnd Developer</span> </h1>
+				<p class="text pb-8">A developer base on Indonesia with focus on frontend developement aims to archive the primary of creating successful producrs</p>
+				<button>
+				Contact
+				</button>
+			</section>
+			<section id="myskill">
+				<h2 class="text-4xl md:text-5xl text-center">My Skill</h2>
+				<p class="text">These are some of the skills I possess and understand well</p>
+				<div class="grid md:grid-cols-2 gap-x-8 gap-y-12 ">
+					<p class="text-4xl justify-self-end">HT<span class="badge-right">ML</span></p>
+					<p class="text-4xl"><span class="badge-left">C</span>SS</p>
+					<p class="text-4xl justify-self-end">JAVA<span class="badge-right">SCRIPT</span></p>
+					<p class="text-4xl"><span class="badge-left">TAILWIND</span>CSS</p>
+				</div>
+			</section>
+			<section id="portfolio" class="mt-10">
+				<h2 class="text-4xl md:text-5xl text-center">Portfolio</h2>
+				<p class="text">This is my work and portfolio,  a collection of projects that i have created wholeheartedly.</p>
+				<div>
+					<div class="flex flex-col gap-10" >
+						<div class="card">
+							<img src="/asset/Base Appareal coming song.png" alt="coming-soon-screenshot" class="card-img">
+							<div class="card-detail">
+								<h3 class="card-title">Base Apperal Coming Soon</h3>
+								<p class="card-description">A Challange from frontendmentor.com to create coming soon page</p>
+								<a href="">
+									<button>Preview</button>
+								</a>
+							</div>
+						</div>
+						<div class="card">
+							<img src="/asset/Recipe page.png" alt="recipe page screenshoot" class="card-img">
+							<div class="card-detail">
+								<h3 class="card-title">Recipe Page</h3>
+								<p class="card-description">
+									A simple responsive recipe page chanllege from Frontnendmentor.com
+								</p>
+								<a href=""><button>preview</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contact" class="mt-10">
+				<h2 class="text-4xl md:text-5xl text-center">Contact</h2>
+				<p class="text">Interest in working with me ? Feel free to contact me by filling out the form bellow</p>
+				<form action="" class=" max-w-screen-sm mx-auto bg-primary-light py-10 px-6">
+					<label for="name">
+						<p class="text-secondary-text ">Name</p>
+						<input  id="name" type="text" class="w-full py-2 px-6 text-secondary-text placeholder:text-secondary-text" placeholder="Input your name">
+					</label>
+					<label for="email" class="inline-block mt-6 mb-8">
+						<p class="text-secondary-text ">Email</p>
+						<input  id="email" type="text" class="w-full py-2 px-6 text-secondary-text placeholder:text-secondary-text" placeholder="Input your email">
+					</label>
+					<label for="message">
+						<p class="text-secondary-text">Message</p>
+						<textarea id="message" class="w-full resize-none py-3 px-6 text-secondary-text min-h-44" >input your message</textarea>
+					</label>
+					<button class="my-4 inline-block">Submit</button>
+				</form>
+			</section>
+		</main>
+		<footer class=" grid gap-4 md:grid-cols-2 bg-primary-text px-6 py-4 mt-4 text-primary">
+			<div>
+				<p class="text-2xl">Arisandi Kader</p>
+				<p class="text text-left m-0 mt-2 text-xs">A developer base on Indonesia with focus on frontend developement aims to archive the primary of creating successful producrs</p>
+			</div>
+			<div class="md:justify-self-end">
+				<p class="text-2xl">Social</p>
+				<ul class="flex gap-4">
+					<li><a href=""><img  class="w-8" src="/asset/github.svg" alt="github img"></a></li>
+					<li><a href=""><img  class="w-8" src="/asset/twitter.svg" alt="twitter img"></a></li>
+					<li><a href=""><img  class="w-8" src="/asset/facebook.svg" alt="facebook img"></a></li>
+					<li><a href=""><img  class="w-8" src="/asset/ig.svg" alt="instagram img"></a></li>
+				</ul>
+			</div>
+			<p class="text-xs md:text-sm">&copy copyright 2023 made by Arisandi Kader</p>
+		</footer>
+	</body>
+</html>
