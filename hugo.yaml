@@ -1,0 +1,52 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Arisandidev29 
+theme : PaperMod
+
+
+
+
+
+params:
+  profileMode:
+    enabled: true
+    title: "Arisandidev29" # optional default will be site title
+    subtitle: "Web Developer || Web Desing"
+    imageUrl: "/images/profile.jpeg" # optional
+    imageTitle: "Arisandidev29" # optional
+    image_profile: '/images/profile.jpeg'
+    imageWidth: 200 # custom size
+    imageHeight: 200 # custom size
+    buttons:
+      - name: Posts 
+        url: "/posts"
+      - name: Github
+        url: "https://github.com/arisandidev29"
+
+  socialIcons: # optional
+    - name: "<platform>"
+      url: "<link>"
+    - name: "<platform 2>"
+      url: "<link2>"
+
+
+
+menu:
+  main:
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 10
+    - identifier : archive
+      name: archive
+      url : /archive
+      weight: 11
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 30
+    
